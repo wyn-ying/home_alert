@@ -78,7 +78,6 @@ def main():
                 msg = "[Warning] 有陌生人进入！已存入图片%s！"%filename
                 print(msg)
                 dm.send(msg)
-                q.put(time_stamp)
             time.sleep(0.2)
 
         # for (x,y,w,h) in faces:
